@@ -42,12 +42,10 @@ if jugador_1 == "papel"
     end
 end
 
-if jugador_1 != "piedra"
-    if jugador_1 != "papel"
-        if jugador_1 != "tijera"
-            puts "Argumento inválido: Debe ser piedra, papel o tijera."
-        end
-    end
+if jugador_1 != "piedra" && jugador_1 != "papel" && jugador_1 != "tijera"
+            
+        puts "Argumento inválido: Debe ser piedra, papel o tijera."
+
 end
 
 
