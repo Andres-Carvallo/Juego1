@@ -1,7 +1,12 @@
 
-jugador_1 = ARGV[0]
-jugador_2 = rand(1..3)
+jugador_1 = ARGV[0].to_s.downcase
 
+
+if jugador_1 != "piedra" && jugador_1 != "papel" && jugador_1 != "tijera"
+            
+        puts "Argumento inválido: Debe ser piedra, papel o tijera."
+else    jugador_2 = rand(1..3)
+end
 
 if jugador_1 == "piedra"
     if jugador_2 ==  1
@@ -42,11 +47,7 @@ if jugador_1 == "papel"
     end
 end
 
-if jugador_1 != "piedra" && jugador_1 != "papel" && jugador_1 != "tijera"
-            
-        puts "Argumento inválido: Debe ser piedra, papel o tijera."
 
-end
 
 
 
