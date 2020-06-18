@@ -30,7 +30,7 @@ if jugador_1 == "tijera"
 end
 
 if jugador_1 == "papel"
-    if jugador_2 ==  3
+    if jugador_2 ==  2
             puts 'Computador juega tijera'
             puts 'Perdiste'
     elsif jugador_2 ==  1
